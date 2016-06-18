@@ -8,7 +8,7 @@ bower_components
 
 # User-specific stuff:
 .idea
-.idea/*
+.idea/
 
 .idea/dictionaries
 .idea/vcs.xml
