@@ -1,3 +1,51 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
 
+.header__top {
+  height: 80px;
+  background: #f44620;
+  background: -moz-linear-gradient(top, #ff5c2d 0%, #f44620 100%);
+  background: -webkit-linear-gradient(top, #ff5c2d 0%, #f44620 100%);
+  background: linear-gradient(to bottom, #ff5c2d 0%, #f44620 100%);
+  display: flex;
+  align-items: center; }
+  .header__top--logo {
+    display: flex;
+    align-items: center;
+    padding-left: 7px; }
+    .header__top--logo-text {
+      color: #fff;
+      font-family: 'Chelsea Market', cursive;
+      font-size: 30px;
+      padding: 0 7px; }
+      .header__top--logo-text-small {
+        padding: 0 7px;
+        color: #fff;
+        font-family: 'Telegrafico';
+        font-weight: normal;
+        font-size: 14px; }
+  .header__top--nav {
+    margin-left: auto; }
+    .header__top--nav ul li {
+      font-size: 14px;
+      display: inline-block;
+      font-family: 'Telegrafico';
+      margin-right: 10px;
+      color: #fff; }
+  .header__top--basket {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    border: 1px solid #ef3717;
+    border-radius: 4px;
+    box-shadow: 0px 16px 49px -20px #000000; }
+    .header__top--basket-img {
+      display: flex;
+      align-items: center; }
+    .header__top--basket-badge {
+      display: none; }
 
 /*# sourceMappingURL=custom.css.map */

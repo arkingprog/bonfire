@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Telegrafico';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Telegrafico'), url('/fonts/telegrafico.woff') format('woff');
+}
