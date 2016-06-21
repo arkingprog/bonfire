@@ -6,3 +6,13 @@ font-style: normal;
 font-weight: normal;
 src: local('Telegrafico'), url('telegrafico.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'Terminal-Dosis-Book';
+    src:url('Terminal-Dosis-Book.ttf.woff') format('woff'),
+    url('Terminal-Dosis-Book.ttf.svg#Terminal-Dosis-Book') format('svg'),
+    url('Terminal-Dosis-Book.ttf.eot'),
+    url('Terminal-Dosis-Book.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}

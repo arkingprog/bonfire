@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .header__top {
   height: 80px;
   background: #f44620;
@@ -12,50 +13,90 @@
   background: linear-gradient(to bottom, #ff5c2d 0%, #f44620 100%);
   display: flex;
   align-items: center;
-  &--logo{
+  &--logo {
     display: flex;
     align-items: center;
-    padding-left:7px ;
-    &-text{
+    padding-left: 7px;
+    &-text {
       color: #fff;
       font-family: 'Chelsea Market', cursive;
       font-size: 30px;
       padding: 0 7px;
-      &-small{
+      &-small {
         padding: 0 7px;
         color: #fff;
         font-family: 'Telegrafico';
         font-weight: normal;
         font-size: 14px;
-    }
+      }
     }
   }
-  &--nav{
+  &--nav {
 
     margin-left: auto;
-    ul{
-      li{
+    ul {
+      li {
         font-size: 14px;
         display: inline-block;
-        font-family:'Telegrafico';
+        font-family: 'Telegrafico';
         margin-right: 10px;
         color: #fff;
       }
     }
   }
-  &--basket{
+  &--basket {
     display: flex;
     align-items: center;
     margin-right: 15px;
     border: 1px solid #ef3717;
     border-radius: 4px;
-    box-shadow: 0px 16px 49px -20px #000000;
-    &-img{
-      display: flex;
-      align-items: center;
+    box-shadow: 0 16px 49px -20px #000000;
+    &-img {
+
     }
-    &-badge{
+    &-badge {
       display: none;
+    }
+  }
+}
+
+.header__middle {
+  height: 80px;
+  background: #fbf2d3 url('../img/header-middle-bg.png');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  & .container {
+    justify-content: flex-start;
+  }
+  &-img {
+    padding-left: 7px;
+    width: 17px;
+    height: 17px;
+    margin: auto 0;
+  }
+  &--nav {
+    &-menu {
+      padding: 0;
+      li {
+        a {
+          text-decoration: none;
+          color: #7d7253;
+        }
+        display: inline-block;
+        font-family: Terminal-Dosis-Book;
+        font-size: 16px;
+        padding: 0 20px;
+        height: 100%;
+        line-height: 80px;
+        &:hover {
+          background: #fbf2d3;
+          background: -moz-linear-gradient(top, #f0e4b8 0%, #fbf2d3 99%);
+          background: -webkit-linear-gradient(top, #f0e4b8 0%, #fbf2d3 99%);
+          background: linear-gradient(to bottom, #f0e4b8 0%, #fbf2d3 99%);
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbf2d3', endColorstr='#f0e4b8', GradientType=0);
+        }
+      }
     }
   }
 }

@@ -41,11 +41,40 @@
     margin-right: 15px;
     border: 1px solid #ef3717;
     border-radius: 4px;
-    box-shadow: 0px 16px 49px -20px #000000; }
-    .header__top--basket-img {
-      display: flex;
-      align-items: center; }
+    box-shadow: 0 16px 49px -20px #000000; }
     .header__top--basket-badge {
       display: none; }
+
+.header__middle {
+  height: 80px;
+  background: #fbf2d3 url("../img/header-middle-bg.png");
+  background-size: cover;
+  display: flex;
+  align-items: center; }
+  .header__middle .container {
+    justify-content: flex-start; }
+  .header__middle-img {
+    padding-left: 7px;
+    width: 17px;
+    height: 17px;
+    margin: auto 0; }
+  .header__middle--nav-menu {
+    padding: 0; }
+    .header__middle--nav-menu li {
+      display: inline-block;
+      font-family: Terminal-Dosis-Book;
+      font-size: 16px;
+      padding: 0 20px;
+      height: 100%;
+      line-height: 80px; }
+      .header__middle--nav-menu li a {
+        text-decoration: none;
+        color: #7d7253; }
+      .header__middle--nav-menu li:hover {
+        background: #fbf2d3;
+        background: -moz-linear-gradient(top, #f0e4b8 0%, #fbf2d3 99%);
+        background: -webkit-linear-gradient(top, #f0e4b8 0%, #fbf2d3 99%);
+        background: linear-gradient(to bottom, #f0e4b8 0%, #fbf2d3 99%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbf2d3', endColorstr='#f0e4b8', GradientType=0); }
 
 /*# sourceMappingURL=custom.css.map */
